@@ -1,0 +1,10 @@
+from app.routers.auth import router as auth_router
+from app.routers.services import router as services_router
+from app.routers.availability import router as availability_router
+from app.routers.bookings import router as bookings_router
+from app.routers.payments import router as payments_router
+from app.routers.reviews import router as reviews_router
+from app.routers.notifications import router as notifications_router
+from app.routers.dashboard import router as dashboard_router
+from app.routers.uploads import router as uploads_router
+from app.routers.coupons import router as coupons_router
